@@ -1,0 +1,79 @@
+Difference between window and Document object
+Document object:
+    The document object represents a web page which is loaded in the browser. One can access the element in the html page by accessing the document object.
+    The document object can be accessed by window.document or just document.
+    
+    Syntax:
+        document.property_name;
+        
+        Properties:
+         some of the properties of document object are:
+        *head  :It returns the head element of the document.
+        *title :It returns the title element of the document.
+        *body  :It returns the contents of the body element.
+        *URL   :It returns the complete URL of the document.
+        *forms :It returns all the elements of the form.
+        
+        Methods of document:
+            document.method_name:
+            
+        The commonly used methods are
+        => addEventListener :It is used to attach an event handler to the specified element.
+        =>createAttribute  :It is used to create an attribute node with the specified name and returns the attribute object.
+        =>createElement    :It is used to create HTML element.
+        =>createEvent      :It is used to create a new event object.
+        
+      Window Object:
+         The window object is the topmost object of the DOM hierarchy.
+         It reperesents the browser window or frame that displays the content of the webpage.
+         Whenever a window appears on the screen to display the contents of the document,the window object is created.
+         
+         
+      Syntax:
+         window.property_name;
+         
+         Properties:
+           Some of the properties of window object are
+           *Console :It returns the reference to the console object which provides access to the browser's debugging console.
+           *innerHeight:It is used to get the height of the content area of the browser window.
+           *innerwidth:It is used to get the width of the content area of the browser window.
+           *Length : It represents the number of frames in the current window.
+           *History: It provides information on the URLs visited in the current window.
+           
+           
+      Methods:
+         window.method_name;
+         
+      The commonly used methods are
+      =>window.close   : It is used for closing a certain window or tab of the browser which was previously opened.
+      =>window.alert   : It is used to display an alert box.
+      =>window.setTimeout()   :It executes a function after waiting a specified number of milliseconds.
+      =>window.clearTimeout() :It clears the timeout which has been set by the setTimeout() function before that.
+      =>window.stop()         :It is used to stop the window from loading resources in the current browsing context.
+      =>window.prompt         :It is used to display a dialog with an optional message prompting the user to input some text.
+         
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
